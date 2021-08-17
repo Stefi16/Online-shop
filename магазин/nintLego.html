@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/nintendoIcon.ico" type="image/x-icon">
+    <title>LEGO Nintendo Entertainment System</title>
+    <meta name="author" content="Stefka Krachunova">
+    <meta name="description" content="LEGO Nintendo Entertainment System. Serial number: 71374.">
+    <link rel="stylesheet" href="/styles/nintLegoStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/responsive.js" defer></script>
+  </head>
+  <body class="main">
+    <a target="_self" href="index.html">
+      <button class="btn"><i class="fa fa-home"></i> Home</button>
+    </a>
+    <section class="product">
+      <a target="_blank" href="/images/lm.png">
+        <img src="/images/lm.png" alt="LEGO Nintendo Entertainment System. Serial number: 71374."
+        title="LEGO Nintendo Entertainment System." class="mainImage">   
+      </a>
+      <div class="productText">
+        <h1 class="header1">LEGO Nintendo Entertainment System. Serial number: 71374.
+            Creative Set. (2646 Pieces)</h1>
+          <h3 class="header3">
+            Product description:
+          </h3>
+          <p>
+              Do you love video games? Did you play Super Mario Bros.™ back in the day? 
+              Or do you just enjoy a hands-on, creative activity in your spare time? If so, 
+              this nostalgic LEGO® Nintendo Entertainment System™ (71374) model kit is perfect 
+              for you.
+          </p>
+          <p>
+            Authentic and interactive
+            The brick-built NES is packed with realistic details, including an opening slot for 
+            the Game Pak with a locking function and a controller with a connecting cable and plug. 
+            The console comes with a buildable retro TV, featuring a flat 8-bit Mario figure on the 
+            scrolling screen, plus an action brick to scan with LEGO® Mario™ (figure not included; 
+            find in the LEGO® Super Mario™ Starter Course set – 71360) so he reacts to the on-screen 
+            enemies, obstacles and power-ups just like in the Super Mario Bros. game.
+          </p>
+          <p>
+            This unique set is part of an inspiring collection of LEGO building sets for adults 
+            that make fabulous gifts for yourself and hobbyist friends who enjoy DIY challenges 
+            and proudly displaying their creations.
+          </p>
+          <h3 class="header3">
+            Price: $229.99
+          </h3>
+      </div>
+    </section>
+    <section class = "formBuy">
+      <h3 class="header3">
+        Buy:
+      </h3>
+      <h4 class="header4">
+        Please fill the form below if you want to purchase this product.
+      </h4>
+      <h5 class="header5">
+        *Shipping takes 3-7 days in the USA.
+      </h5>
+      <form class="form" id="buyForm">
+        <img src="/images/nintSet.jpeg" alt="Set fully assembled" class="figurePic">
+        <label for="names">Names:</label><br>
+        <input type="text" id="names" name="names" size="100"  class="separator"><br>
+        <label for="adress">Adress:</label><br>
+        <textarea id="adress" name="adress" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Order()" value="Submit" class="button button1">
+        <p class="orderOutput"></p>
+      </form>
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        User reviews:
+      </h3>
+      <div class="comments">
+        <p class="commentsOutput" id="commentsOutput"></p>
+        <p>CatLover58d:</p>
+        <p>First I would like to say this is a amazing replicated kit I'm build this set at my job and when my coworkers see the Nintendo console they think it's the real deal until I tell them it's a Lego..There pretty amazed.. I grew up playing all the game systems and this is one reason why I bought the set. I love all the details that went into making the console even being able to insert the Cartridge and locking it down. The only downfall to that I would say is for my console the locking mechanism doesn't slide all the way to allow the tray to unlock so I have to tilt the console forward while holding down the game cartride to release the mechanism that's why I only gave it a 9 rating instead of a 10.. But it's not like I will be inserting and removing the cartridge all the time. This is a fun set to build and brings back some memories.. </p><br>
+          <p>LegoBuilder919:</p>
+          <p>This set is incredible! My son (6) and I built it together and both of us had a great time. There’s lots of different build techniques involved. The scene did take a bit of time as we aligned everything neatly but it’s worth it! The only downside is right at the end when you realise the stand doesn’t connect to the TV. It makes it realistic in terms of having a TV sat on a stand but I’d like to have it stuck together because I worry I’ll be the one to knock it off! Building the Nintendo brought back a lot of memories for me and playing with Lego Mario on the TV set has made new ones for us both. The clicker behind the dial is genius! This set will 100% astound our friends and we’re so glad we have it.</p><br>
+          <p>Luigi589:</p>
+          <p>This is definitely one of the coolest, most detailed sets I’ve ever bought. The interior of the console and TV have pieces of a variety of colors which add some pizazz to this set. The detailing include all of the cable slots, as well as, the switches and dials. I love that you could insert the game inside the Console. It would have been cooler if there were another cable connecting the TV to the Console. There are only three big stickers. All of the small pieces are printed. There is virtually no repetition. The crank works perfectly and the added Mario figure glides through with no issues. Overall this set is definitely recommended for any LEGO or Mario fan</p><br>
+      </div> 
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        Tried our product?
+      </h3>
+      <h4 class="header4">
+        Enter a review:
+      </h4>
+      <form class="form" id="reviewForm">
+        <img src="/images/nintSet2.png" alt="Set fully assembled" class="figurePic">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" size="100"  class="separator"><br>
+        <label for="review">Review:</label><br>
+        <textarea id="review" name="review" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Commenters()" value="Submit" class="button button1">
+      </form>
+      <p class = 'commentsFormOutput'></p>
+    </section>
+  </body>

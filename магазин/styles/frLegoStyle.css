@@ -1,0 +1,134 @@
+.main {
+    background-image: url("/images/frBack.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn {
+    background-color: green; 
+    border: none; 
+    color: white; 
+    padding: 8px 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 10px;
+    position: fixed;
+    top: 10px;
+  }
+  .btn:hover {
+    background-color: rgb(0, 92, 0);
+  }
+.mainImage {
+    width: 500px;
+    height: 500px;
+    border: 3px solid rgb(80, 78, 78);
+    float: left;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+}
+.mainImage:hover {
+    border: 3px solid green;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+.product{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 18px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 80px;
+}
+.productText {
+    margin: 20px;
+}
+.header1 {
+    font-size: 21px;
+    text-align: center;
+}
+.header3 {
+    text-align: center;
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+}
+.formBuy, .reviews {
+    background-color: white;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 18px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.orderOutput, .commentsFormOutput {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+.form {
+    text-align: left;
+    padding-left: 40px;
+}
+.header5 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.separator {
+    margin-bottom: 20px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid green;
+  }
+  
+  .button1:hover {
+    background-color: green;
+    color: white;
+  }
+.figurePic, .figurePic2 {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+}
+.comments {
+   margin-left: 40px;
+   margin-top: 20px;
+   margin-right: 40px;
+}
+.header4 {
+    text-align: center;
+}
+@media screen and (max-width: 1300px) {
+    .product, .formBuy, .comments, .reviews{
+      margin: 20px;
+      width: 95%;
+      height: 100%;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .figurePic, .figurePic2{
+    width: 15%;
+    height: 15%;
+    }
+  }

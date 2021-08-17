@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/hpIcon.ico" type="image/x-icon">
+    <title>LEGO HP Great Hall</title>
+    <meta name="author" content="Stefka Krachunova">
+    <meta name="description" content="Harry Potter Great Hall set. Serial number: 75954">
+    <link rel="stylesheet" href="/styles/hpLegoStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/responsive.js" defer></script>
+  </head>
+  <body class="main">
+    <a target="_self" href="index.html">
+      <button class="btn"><i class="fa fa-home"> Home</i></button>
+    </a>
+    <section class="product">
+      <a target="_blank" href="/images/hp.png">
+        <img src="/images/hp.png" alt="Harry Potter lego set. Serial number: 75954."
+        title="Harry Potter LEGO Great Hall." class="mainImage">   
+      </a>
+      <div class="productText">
+        <h1 class="header1">LEGO Harry Potter Hogwarts Great Hall. Serial number:
+          75954. Building Kit. (878 Pieces)</h1>
+          <h3 class="header3">
+            Product description:
+          </h3>
+          <p>
+            Build and recreate a magical fantasy realm from the Harry Potter™ movies 
+            with this detailed 4-level LEGO® 75954 Hogwarts™ Great Hall Harry Potter building kit, 
+            featuring a fireplace, benches, tables and reversible house banners, plus the Grand 
+            Staircase tower with a spiral staircase, potions room, treasure room, sorting hat, 
+            Mirror of Erised™ and lots of magical artifact accessory elements. This fantasy 
+            role-playing castle toy includes 10 minifigures and buildable Basilisk and Fawkes™
+             creatures, plus Hedwig™ and Scabbers™ figures.
+          </p>
+          <p>
+              Includes 10 minifigures: Harry Potter™, Ron Weasley™, Hermione Granger™, Draco Malfoy™, 
+              Susan Bones, Professor McGonagall™, Professor Quirrell with dual Lord Voldemort™ face, 
+              Hagrid™, Albus Dumbledore™ and Nearly Headless Nick, plus buildable Basilisk and Fawkes™ 
+              creatures, and Hedwig™ and Scabbers™ figures.
+          </p>
+          <h3 class="header3">
+            Price: $99.99
+          </h3>
+      </div>
+    </section>
+    <section class = "formBuy">
+      <h3 class="header3">
+        Buy:
+      </h3>
+      <h4 class="header4">
+        Please fill the form below if you want to purchase this product.
+      </h4>
+      <h5 class="header5">
+        *Shipping takes 3-7 days in the USA.
+      </h5>
+      <form class="form" id="buyForm">
+        <img src="/images/hpFigure.jpg" alt="Harry Potter lego figure." class="figurePic">
+        <label for="names">Names:</label><br>
+        <input type="text" id="names" name="names" size="100"  class="separator"><br>
+        <label for="adress">Adress:</label><br>
+        <textarea id="adress" name="adress" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Order()" value="Submit" class="button button1">
+        <p class="orderOutput"></p>
+      </form>
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        User reviews:
+      </h3>
+      <div class="comments">
+        <p class="commentsOutput" id="commentsOutput"></p>
+        <p>RainbowLover101:</p>
+        <p>If you only can have one set This is the one. Its a Nice size, beautiful castle like exterior and interior and you get cool mini figures. Its the most iconic building of Harry Potter and This set captures the best of it. Love the great hall and the decor.</p><br>
+          <p>LegoBuilder999:</p>
+          <p>This is a really good playset and lots of options to play and place your included figures. With everything from a tiny dormitory to a moving staircase there is more than just the Dining Hall included in the set and it gives you a lot of play value once built. I have to admit the included basilisk is really fun and we have found ourselves randomly attacking each other with it for no other reason than it is funny. Okay, the build itself is the important bit for me and this was one of the more complicated builds I have taken on. By following the printed instructions it is actually much easier than I thought it would be. The images are clear and with the bricks being pre-sorted in to bags it makes it a joy to build. The fact it is split in to bags also gives you natural break points but I will admit I just built this in one gleeful sitting.</p><br>
+          <p>JavaDev88:</p>
+          <p>This is truly a terrific set, so well designed but its missing the small turrets on the main tower... I've had a look through Pick-a-Brick and with the extra pieces shown I've fixed this, enjoy!</p><br>
+          <p>RedditHacker899:</p>
+          <p>One day me and my girlfriend walked inside the LEGO store and saw the staff there put this castle on its backside and put the train with it together, the idea was so amazing so we bought the two sets together. The building process was excellent and with a little imagination. We put them two together and has a XBOX as the base , haha! Before we thought one day we would buy the big Hogwarts Castle, but after finishing these two, with more details, we would definitely recommend this one if you don't have much room or already have other castles such as Disney like us!</p><br>
+      </div> 
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        Tried our product?
+      </h3>
+      <h4 class="header4">
+        Enter a review:
+      </h4>
+      <img src="/images/ronFigure_.jpg" alt="Ron lego figure." class="figurePic2">
+      <form class="form" id="reviewForm">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" size="100"  class="separator"><br>
+        <label for="review">Review:</label><br>
+        <textarea id="review" name="review" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Commenters()" value="Submit" class="button button1">
+      </form>
+      <p class = 'commentsFormOutput'></p>
+    </section>
+  </body>

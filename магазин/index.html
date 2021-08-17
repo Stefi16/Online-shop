@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/titleIcon.ico" type="image/x-icon">
+    <title>LEGO Store</title>
+    <meta name="author" content="Stefka Krachunova">
+    <meta name="description" content="A LEGO online store where you
+    can order every previous and future set. We offer spare parts for every set as well.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles/mainPage.css">
+    <script src="/scripts/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="main">
+    <button class="btn" onclick="openNav()" ><i class="fa fa-bars"></i> Menu</button>
+    <nav id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Top</a>
+      <a href="#HP">Harry Potter</a>
+      <a href="#TV">TV Shows</a> 
+      <a href="#Cars">Cars</a>
+      <a href="#Collectables">Collectables</a>
+      <a href="#Christmas">Christmas</a>
+      <a href="#CI">Contact us</a>
+    </nav>
+    <header class="titles">
+        <h1>Online LEGO Shop</h1>
+        <h3>Follow your imagination.</h3>
+    </header>
+    <section class="slideshow-container">
+      <figure class="mySlides fade">
+        <img src="/images/legoMainPic.jpg" class="slideImage">
+      </figure>
+      <figure class="mySlides fade">
+        <img src="/images/carousel1.jpg" class="slideImage">
+      </figure>
+      <figure class="mySlides fade">
+        <img src="/images/carousel2.jpg" class="slideImage">
+      </figure>
+      <figure class="mySlides fade">
+        <img src="/images/carousel3.jpg" class="slideImage">
+      </figure>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+    <br>
+    <section style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </section>
+    <section class="products" id="HP">
+        <p class="titleProducts">
+            Harry Potter Lego Products:
+        </p>
+        <div class="gallery">
+          <a target="_self" href="/hpLego.html">
+            <img src="/images/hp.png" alt="Harry Potter lego set. Serial number: 75954.">
+          <div class="desc">LEGO Harry Potter Hogwarts Great Hall. Serial number:
+          75954. Building Kit. (878 Pieces)</div>
+        </a>
+        <div class="price">$99.99</div>
+        </div>
+        <div class="gallery">
+            <img src="/images/hpHogsmade.jpg" alt="LEGO 76388 Hogsmeade Village Visit">
+            <div class="desc">LEGO Harry Potter Hogsmeade Village Visit. Building Set. Serial number: 76388. (851 Pieces)</div>
+          <div class="price" >OUT OF STOCK.</div>
+        </div>
+        <div class="gallery">
+          <img src="/images/hpChamber.jpg" alt="LEGO 76389 Harry Potter Hogwarts Chamber of Secrets">
+          <div class="desc">LEGO Harry Potter Hogwarts Chamber of Secrets. Building set. Serial number: 76389. (1176 Pieces)</div>
+        <div class="price" >OUT OF STOCK.</div>
+      </div>
+    </section>
+    <section class="products" id="TV">
+      <p class="titleProducts">TV Shows Lego Products:</p>
+      <div class="gallery">
+        <a target="_self" href="frLego.html">
+          <img src="/images/lf.png" alt="F.R.I.E.N.D.S lego set. Serial number: 75954.">
+        <div class="desc">LEGO F.R.I.E.N.D.S, Central Perk Café, building set.
+          Serial number: 21319. (1070 Pieces)</div>
+        </a>
+        <div class="price">$59.99</div>
+      </div>
+      <div class="gallery">
+        <img src="/images/BBT.png" alt="LEGO The Big Bang Theory Apartment. Building set. Serial number: 21302.">
+        <div class="desc">LEGO The Big Bang Theory Apartment. Building set. Serial number: 21302. (484 Pieces)</div>
+      <div class="price" >OUT OF STOCK.</div>
+      </div>
+      <div class="gallery">
+        <img src="/images/SS.png" alt="LEGO 123 Sesame Street. Building set. Serial number: 21324.">
+        <div class="desc">LEGO 123 Sesame Street House. Building set. Serial number: 21324. (1367 Pieces)</div>
+      <div class="price" >OUT OF STOCK.</div>
+      </div>
+    </section>
+    <section class="products" id="Cars">
+      <p class="titleProducts">Cars Lego Products:</p>
+      <div class="gallery">
+        <a target="_self" href="/bugLego.html">
+          <img src="/images/lc.png" alt="LEGO Technic, Bugatti Chiron. Serial number: 42083.">
+        <div class="desc">LEGO Bugatti Chiron. Serial number: 42083. Exclusive Collector's Model. (3599 Pieces)</div>
+        </a>
+        <div class="price">$349.99</div>
+      </div>
+      <div class="gallery">
+        <img src="/images/ferrari.png" alt="LEGO 123 Sesame Street. Building set. Serial number: 21324.">
+        <div class="desc">LEGO Ferrari 488 GTE “AF Corse #51”. Building set. Serial number: 42125. (1677 Pieces)</div>
+      <div class="price" >OUT OF STOCK.</div>
+      </div>
+      <div class="gallery">
+        <img src="/images/porsche.png" alt="LEGO Porsche 911 RSR. Building set. Serial number: 42096.">
+        <div class="desc">LEGO Porsche Model: 911 RSR. Building set. Serial number: 42096. (1580 Pieces)</div>
+      <div class="price" >OUT OF STOCK.</div>
+      </div>
+    </section>
+    <section class="products" id="Collectables">
+      <p class="titleProducts">Rare Collectable Lego Products:</p>
+      <div class="gallery">
+        <a target="_self" href="/nintLego.html">
+          <img src="/images/lm.png" alt="LEGO Nintendo Entertainment System. Serial number: 71374.">
+          <div class="desc">LEGO Nintendo Entertainment System. Serial number: 71374. Creative Set. (2646 Pieces)</div>
+        </a>
+      <div class="price">$229.99</div>
+      </div>
+      <div class="gallery">
+        <img src="/images/stadium.png" alt="LEGO Old Trafford - Manchester United. Building set. Serial number: 10272.">
+        <div class="desc">LEGO Old Trafford - Manchester United. Building set. Serial number: 10272. (3898 Pieces)</div>
+      <div class="price" >OUT OF STOCK.</div>
+      </div>
+      <div class="gallery">
+        <img src="/images/SPQRC.png" alt="LEGO S.P.Q.R. Italy Colosseum. Building set. Serial number: 10272.">
+        <div class="desc">LEGO S.P.Q.R. Italy Colosseum. Building set. Serial number: 10276. (9036 Pieces)</div>
+      <div class="price" >OUT OF STOCK.</div>
+      </div>
+    </section>
+    <section class="products" id="Christmas">
+      <p class="titleProducts">Christmas Lego Products:</p>
+      <div class="gallery">
+        <a target="_self" href="/gingerLego.html">
+          <img src="/images/lg.png" alt="LEGO Creator Expert Gingerbread House. Serial number: 10267.">
+          <div class="desc">LEGO Gingerbread House. Serial number: 10267. Building Kit, New: 2021. (1477 Pieces)</div>
+        </a>
+      <div class="price">$99.99</div>
+      </div>
+      <div class="gallery">
+        <img src="/images/ElfHouse.png" alt="LEGO Elf Christmas Club House. Building set. Serial number: 10275.">
+        <div class="desc">LEGO Elf Christmas Club House. Building set. Serial number: 10275. (1197 Pieces)</div>
+      <div class="price" >OUT OF STOCK.</div>
+      </div>
+      <div class="gallery">
+        <img src="/images/fireStation.png" alt="LEGO Winter Village Fire Station. Building set. Serial number: 10263.">
+        <div class="desc">LEGO Winter Village Fire Station. Building set. Serial number: 10263. (1166 Pieces)</div>
+      <div class="price" >OUT OF STOCK.</div>
+      </div>
+    </section>
+    <footer>
+      <h4 class="contTitle" id="CI">Contact Information: </h4>
+      <p class = "contactInfo">Email: legoShop@lego.com </p>
+      <p class = "contactInfo">Number: 1-800-835-4389 </p>
+    </footer>
+  </body>
+</html> 

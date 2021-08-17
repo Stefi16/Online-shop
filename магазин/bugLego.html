@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/bugIcon.ico" type="image/x-icon">
+    <title>LEGO Bugatti Chiron</title>
+    <meta name="author" content="Stefka Krachunova">
+    <meta name="description" content="LEGO Bugatti Chiron. Serial number: 42083.">
+    <link rel="stylesheet" href="/styles/bugLegoStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/responsive.js" defer></script>
+  </head>
+  <body class="main">
+    <a target="_self" href="index.html">
+      <button class="btn"><i class="fa fa-home"></i> Home</button>
+    </a>
+    <section class="product">
+      <a target="_blank" href="/images/lc.png">
+        <img src="/images/lc.png" alt="LEGO Bugatti Chiron. Serial number: 42083.
+        Exclusive Collector's Model."
+        title=""LEGO Bugatti Chiron." class="mainImage">   
+      </a>
+      <div class="productText">
+        <h1 class="header1">LEGO Bugatti Chiron. Serial number: 42083.
+            Exclusive Collector's Model. (3599 Pieces)</h1>
+          <h3 class="header3">
+            Product description:
+          </h3>
+          <p>
+            Explore engineering excellence with the LEGO® Technic™ 42083 Bugatti Chiron 
+            advanced building set. This exclusive model has been developed in partnership 
+            with Bugatti Automobiles S.A.S to capture the essence of the quintessential super 
+            sports car, and comes with gleaming aerodynamic bodywork, logoed spoked rims with 
+            low-profile tires, and detailed brake discs. The accessible cockpit features a Technic 
+            8-speed gearbox with movable paddle gearshift and a steering wheel bearing the Bugatti
+            emblem. Insert the top speed key and you can switch the active rear wing from handling 
+            to top speed position. The rear lid affords a glimpse of the detailed W16 engine with 
+            moving pistons, while beneath the hood you’ll discover a unique serial number and a 
+            compact storage compartment containing a stylish Bugatti overnight bag. This 1:8 scale 
+            model comes with a classic Bugatti duo-tone blue color scheme that reflects the brand's 
+            signature color. This 1:8 scale model comes with a classic Bugatti duo-tone blue color 
+            scheme that reflects the brand's signature color, and a set of stickers for additional 
+            detailing. The set is delivered in luxurious box packaging and includes a color 
+            collector’s booklet with comprehensive building instructions.
+          </p>
+          <h3 class="header3">
+            Price: $349.99
+          </h3>
+      </div>
+    </section>
+    <section class = "formBuy">
+      <h3 class="header3">
+        Buy:
+      </h3>
+      <h4 class="header4">
+        Please fill the form below if you want to purchase this product.
+      </h4>
+      <h5 class="header5">
+        *Shipping takes 3-7 days in the USA.
+      </h5>
+      <form class="form" id="buyForm">
+        <img src="/images/bugSet.jpg" alt="Car set fully assembled" class="figurePic">
+        <label for="names">Names:</label><br>
+        <input type="text" id="names" name="names" size="100"  class="separator"><br>
+        <label for="adress">Adress:</label><br>
+        <textarea id="adress" name="adress" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Order()" value="Submit" class="button button1">
+        <p class="orderOutput"></p>
+      </form>
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        User reviews:
+      </h3>
+      <div class="comments">
+        <p class="commentsOutput" id="commentsOutput"></p>
+        <p>CarLover788l:</p>
+        <p>With all the excellent reviews already available, I thought I would share this instead. -pivot the shaft away from the key just a bit, insert key in a downward angle, and wha la! Perfect key storage. I’ve never seen this mentioned on the official site, yet it fits seamlessly as if by design. </p><br>
+          <p>LegoBuilder999:</p>
+          <p>The attention to detail on this set is incredible! From the general body design to the complexities involved in the marriage process. There were challenging times while building the engine, but seeing it come together was very worthwhile and satisfying. I have many Lego sets ranging from the Millenium Falcon to other UCM's, and this is by far at the top of my list for most rewarding builds.</p><br>
+          <p>NDTysonFan889f:</p>
+          <p>I decided to write a review for this product because I had a disappointment from it. After the great feeling of building the 911 Porsche model. I was sure that in this model I have the same or better feeling. The box and books, many parts complexity and details are much more than the Porsche But the design is not good. It seems that Lego wanted to come out with the model and not waited enough time to fix all. Front of the car parts are very loos, the back as well. Front wheel springs don’t hold the wight of the car. I added 2 or 3 more sets of springs to lift the car. One thing I loved is the build of this set finds the same like the Original car. Not all Is bad, it’s a very good model for car lovers but I think I could have more value for money. This model is for the Presentation only. I think that Lego fan will need to choose one model from the car series to have the full experience. The new Lamborghini Sián FKP 37 will not enter to my collection.</p><br>
+          <p>DipperGF233:</p>
+          <p>The best Lego technic set, very challenging during construction and the final result its amazing.</p><br>
+      </div> 
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        Tried our product?
+      </h3>
+      <h4 class="header4">
+        Enter a review:
+      </h4>
+      <form class="form" id="reviewForm">
+        <img src="/images/bugSet2.jpg" alt="Car set fully assembled" class="figurePic">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" size="100"  class="separator"><br>
+        <label for="review">Review:</label><br>
+        <textarea id="review" name="review" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Commenters()" value="Submit" class="button button1">
+      </form>
+      <p class = 'commentsFormOutput'></p>
+    </section>
+  </body>

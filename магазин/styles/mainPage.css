@@ -1,0 +1,207 @@
+.main {
+  background-image: url("/images/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    margin-bottom: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: white; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+/* Навигационните линкове */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: royalblue;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.btn {
+  background-color: white; 
+  border: none; 
+  color: black; 
+  border-radius: 10px;
+  padding: 8px 10px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  position: fixed;
+  top: 10px;
+}
+.btn:hover {
+  background-color: rgb(216, 207, 207);
+}
+h1 {
+    font-size: 40px;
+    color: honeydew;
+}
+h3 {
+    font-size: 22px;
+    color: honeydew;
+    text-shadow: 5px 5px 5px gray;
+}
+.titles {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size:10vw;
+}
+
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.slideImage {
+max-height: 90%;
+max-width: 100%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.titleProducts {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.products {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 240px;
+  margin-right: 240px;
+  border-style: solid;
+  overflow: hidden;
+  border-radius: 18px;
+  border-color: grey;
+  background-color: #a8dce0;
+}
+
+@media screen and (max-width: 800px) {
+  .products {
+    margin: 20px;
+    width: 90%;
+    height: 100%;
+  }
+}
+
+.gallery {
+    margin: 40px;
+    border: 3px outset rgb(80, 78, 78);
+    float: left;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+  }
+  
+  .gallery:hover {
+    border: 3px outset royalblue;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+  
+  .gallery img {
+    width: 250px;
+    height: 200px;
+  }
+  
+  .desc {
+    padding: 10px;
+    text-align: center;
+  }
+  a {
+      color: black;
+      text-decoration: none;
+  }
+  a:hover {
+      color: royalblue;
+  }
+  .price {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .contactInfo {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+  .contTitle {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+  }

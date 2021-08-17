@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/Friends.ico" type="image/x-icon">
+    <title>LEGO F.R.I.E.N.D.S</title>
+    <meta name="author" content="Stefka Krachunova">
+    <meta name="description" content="F.R.I.E.N.D.S lego set. Serial number: 75954.">
+    <link rel="stylesheet" href="/styles/frLegoStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/responsive.js" defer></script>
+  </head>
+  <body class="main">
+    <a target="_self" href="index.html">
+      <button class="btn"><i class="fa fa-home"></i> Home</button>
+    </a>
+    <section class="product">
+      <a target="_blank" href="/images/lf.png">
+        <img src="/images/lf.png" alt="LEGO F.R.I.E.N.D.S, Central Perk Café, building set.
+        Serial number: 21319. (1070 Pieces)" class="mainImage">   
+      </a>
+      <div class="productText">
+        <h1 class="header1">LEGO F.R.I.E.N.D.S, Central Perk Café, building set.
+            Serial number: 21319. (1070 Pieces)</h1>
+          <h3 class="header3">
+            Product description:
+          </h3>
+          <p>
+            Celebrate the 25th anniversary of Friends, the legendary American TV sitcom, 
+            with this highly collectible LEGO® Ideas 21319 CENTRAL PERK set! This wonderful 
+            LEGO recreation of the café TV studio set is packed with authentic details, making 
+            it a must-have Friends memorabilia item for fans. The iconic seating area with a couch,
+             armchair and 2 chairs for the friends is removable for easy play. And check out the 
+             stage where Phoebe performed her songs on guitar (and where Ross once played his 
+             keyboard and everyone except Phoebe thought he was terrible). The LEGO toy minifigures
+             of Ross, Rachel, Chandler, Monica, Joey, Phoebe and CENTRAL PERK’s long-suffering manager 
+             Gunther. An ideal Friends-themed gift for your own friends and family who love the 
+             TV show.
+          </p>
+          <p>
+            The minifigures each have their own items inspired by the TV series, 
+            including Ross’s brick-built keyboard and the following accessory elements: 
+            Rachel’s tray and coffee cup, Monica’s muffin, Joey’s pizza box, pizza slice and
+             ‘man bag’, Chandler’s laptop, Phoebe’s guitar and Gunther’s broom.
+          </p>
+          <h3 class="header3">
+            Price: $59.99
+          </h3>
+      </div>
+    </section>
+    <section class = "formBuy">
+      <h3 class="header3">
+        Buy:
+      </h3>
+      <h4 class="header4">
+        Please fill the form below if you want to purchase this product.
+      </h4>
+      <h5 class="header5">
+        *Shipping takes 3-7 days in the USA.
+      </h5>
+      <form class="form" id="buyForm">
+      <img src="/images/monicaFigure.jpg" alt="Monica lego figure." class="figurePic">
+        <label for="names">Names:</label><br>
+        <input type="text" id="names" name="names" size="100"  class="separator"><br>
+        <label for="adress">Adress:</label><br>
+        <textarea id="adress" name="adress" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Order()" value="Submit" class="button button1">
+        <p class="orderOutput"></p>
+      </form>
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        User reviews:
+      </h3>
+      <div class="comments">
+        <p class="commentsOutput" id="commentsOutput"></p>
+        <p>TaylorSwiftFan101:</p>
+        <p>Enjoyed every minute of building it, lots of memories, a bit too easy thou. Finger crossed we will have Monica’s apartment in the future.</p><br>
+          <p>Joey788:</p>
+          <p>I bought the LEGO friends Central Perk set for my wife as a Christmas gift since we both are huge fans of the show, which was a win win for me and my son as well since we love legos! This was one of the most interesting builds I’ve ever done, and I really took my time with my wife and son (4 years old) to enjoy all of the detail that was put into this set. The LEGO figures were spot on as well! I love the ability to pop the 3 couch/eating sections out to play with separately. Kudos to the LEGO engineers who can who with this one! I do think that LEGO should go a step further with the friends theme, maybe make Monica’s apartment, or Phoebe’s taxi, or Chandler and Joey’s apartment. Fans of both Friends and LEGO would eat that up! As far as the quality of this set, it is worth way more that $60, considering all of the pieces and types of pieces involved! Buy one while you can! Even if it’s just to increase your piece parts for personal builds! The colors are very unique and would work nicely building other things as well!</p><br>
+          <p>Stella588k:</p>
+          <p>This set is by far the best value for the money. Lots of details and printed pieces, minimum stickers, plus all the main characters minifig included. Compare with other Lego set with way less pieces but more expensive, this set is a MUST HAVE!!! I am tempted to buy another one just keep it sealed in box.</p><br>
+          <p>PotOfGreed59:</p>
+          <p>I have waited a long time for a set like this, I'm gutted it's just the one but hopefully with this set being a hit we'll see others pop up too. It took me roughly 6.5 hours total building time over 2 days. Some parts were a little tricky but nothing too complex. The moveable flooring is great for moving characters about to get the perfect scene. The added cameras make it really look like the film set which makes this so much better. Each minifig has been designed perfectly. I can't wait to find a permanent home for it as it'll look good among my many other sets.</p><br>
+      </div> 
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        Tried our product?
+      </h3>
+      <h4 class="header4">
+        Enter a review:
+      </h4>
+      <img src="/images/allFigures.jpg" alt="All figures that come in the set." class="figurePic2">
+      <form class="form" id="reviewForm">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" size="100"  class="separator"><br>
+        <label for="review">Review:</label><br>
+        <textarea id="review" name="review" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Commenters()" value="Submit" class="button button1">
+      </form>
+      <p class = 'commentsFormOutput'></p>
+    </section>
+  </body>

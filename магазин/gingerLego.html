@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/gingerbreadIcon.ico" type="image/x-icon">
+    <title>LEGO Gingerbread House</title>
+    <meta name="author" content="Stefka Krachunova">
+    <meta name="description" content="LEGO Creator Expert Gingerbread House. Serial number: 10267.">
+    <link rel="stylesheet" href="/styles/gingerLegoStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/responsive.js" defer></script>
+  </head>
+  <body class="main">
+    <a target="_self" href="index.html">
+      <button class="btn"><i class="fa fa-home"></i> Home</button>
+    </a>
+    <section class="product">
+      <a target="_blank" href="/images/lg.png">
+        <img src="/images/lg.png" alt="LEGO Creator Expert Gingerbread House. Serial number: 10267."
+        title="LEGO Gingerbread House" class="mainImage">   
+      </a>
+      <div class="productText">
+        <h1 class="header1">LEGO Gingerbread House. Serial number: 10267. 
+            Building Kit, New: 2021. (1477 Pieces)</h1>
+          <h3 class="header3">
+            Product description:
+          </h3>
+          <p>
+            Enjoy a festive build and play experience with the LEGO® Creator Expert 10267 
+            Gingerbread House. A treasure chest of magical details, this amazing model features 
+            frosted roofs with colorful candy buttons and a delicious facade with candy-cane columns, 
+            glittery windows and a tall chimney stack with a glowing fireplace. Inside the house 
+            there’s an array of fun details and candy furnishings including a tasteful bedroom with 
+            chocolate bed and cotton candy lamp, and a bathroom with the essential toilet and bathtub. 
+            This wonderful LEGO Gingerbread House sets the scene for imaginative adventures with the 
+            gingerbread family. Children can light up the cozy fireplace, help clear the sidewalk with 
+            the snow blower and nestle the gingerbread baby in its carriage. It also includes a 
+            decorated Christmas tree with wrapped gifts and toys, including a rocking horse and a toy 
+            train. This advanced LEGO set delivers a challenging and rewarding building experience and 
+            makes a great seasonal centerpiece for the home or office. Includes gingerbread man, woman 
+            and baby figures.
+          </p>
+          <h3 class="header3">
+            Price: $99.99
+          </h3>
+      </div>
+    </section>
+    <section class = "formBuy">
+      <h3 class="header3">
+        Buy:
+      </h3>
+      <h4 class="header4">
+        Please fill the form below if you want to purchase this product.
+      </h4>
+      <h5 class="header5">
+        *Shipping takes 3-7 days in the USA.
+      </h5>
+      <form class="form" id="buyForm">
+        <img src="/images/gingerSet.png" alt="Set fully assembled" class="figurePic">
+        <label for="names">Names:</label><br>
+        <input type="text" id="names" name="names" size="100"  class="separator"><br>
+        <label for="adress">Adress:</label><br>
+        <textarea id="adress" name="adress" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Order()" value="Submit" class="button button1">
+        <p class="orderOutput"></p>
+      </form>
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        User reviews:
+      </h3>
+      <div class="comments">
+        <p class="commentsOutput" id="commentsOutput"></p>
+        <p>FatherChristmas877k:</p>
+        <p>My 7 year old daughter built the majority of this set herself. She needed a little help with the roof, but I was really impressed by her building ability and by the set itself. That being said, there is one major design flaw that we both noticed. The gingerbread woman is unable to use any of the furniture inside and outside of the house due to the unwieldiness of her skirt. We came up with a fix for this and wanted to share. We put the skirt on the gingerbread man. Now the gingerbread woman is able to take a relaxing bath while the gingerbread man rocks the baby to sleep in the crib. She can also take a nice nap while he's feeding the baby. She can sit comfortably by the fire while he makes her a perfect cup of tea, and she can enjoy that tea outdoors at the table while he takes the baby for a walk. Five stars for this set (with this fix)! Our Christmas wish is that there is a woman designer for next year's set! </p><br>
+          <p>MasterBuilder588:</p>
+          <p>I brought this for myself as I love gingerbread, First time I've played with lego since in was young. I was pleasantly surprised how easy the instructions were and how cute all the little extra touches made. I left the roof to my boyfriend after reading reviews but he had no issues with it at all. please can you make a mini figure gingerbread baby for next year. I loved making it so much I've now brought myself the diner.</p><br>
+          <p>Jason8k:</p>
+          <p>This is the first Creator Expert build I’ve done having watched my husband take on a lot - when I spotted the Gingerbread House in store, I knew I wanted it for our Lego Christmas village but also wanted to try my hand at building. As a novice at this level, I found it quite challenging but the sense of satisfaction I got from completing the build was amazing! I love the little details on this set - the bedding and cushions are tiny bars of chocolate, the bow on the present is a pretzel - and the overall finish is gorgeous. It fits in well with the winter train and winter fire station sets and is a great addition to our village. It has also inspired me to get another set for myself because I loved the process of building it. Thank you Lego!</p><br>
+      </div> 
+    </section>
+    <section class="reviews">
+      <h3 class="header3">
+        Tried our product?
+      </h3>
+      <h4 class="header4">
+        Enter a review:
+      </h4>
+      <form class="form" id="reviewForm">
+        <img src="/images/gingerSet2.jfif" alt="Set fully assembled" class="figurePic">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" size="100"  class="separator"><br>
+        <label for="review">Review:</label><br>
+        <textarea id="review" name="review" rows="3" cols="91" class = "separator"></textarea> <br>
+        <input type="button" onclick="Commenters()" value="Submit" class="button button1">
+      </form>
+      <p class = 'commentsFormOutput'></p>
+    </section>
+  </body>
